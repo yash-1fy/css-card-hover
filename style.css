@@ -1,0 +1,38 @@
+.card{
+    height: 200px;
+    width: 150px;
+    border: 0 solid #00000000;
+    border-radius: 5px;
+    text-align: center;
+    display: inline-block;
+    padding: 0;
+    margin: 10px;
+    box-shadow: 2px 4px 8px black;
+    transition: transform 0.2s ease-in-out 1ms;
+}
+
+.inner{
+    height: 40%;
+    width: 100%;
+    padding: 2px 0em;
+}
+
+img{
+    height: 60%;
+    width: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+h3{
+    margin: 0.6em 0;
+}
+
+p{
+    margin: 0.3em;
+}
+
+.card:hover{
+    transform: scale(1.05);
+    box-shadow: 4px 8px 8px black;
+}
